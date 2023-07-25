@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      run: docker build . --file Dockerfile --tag sumo_docker
       
     - name: Run Docker Container
-      run: docker run -it --rm my-image-name:$(date +%s)
+      run: docker run -it --rm sumo_docker
