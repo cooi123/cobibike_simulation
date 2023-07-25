@@ -1,0 +1,6 @@
+<configuration>
+    <net-file value="monash.net.xml"/>
+  <route-files value="out.xml"/>
+
+<step-length value="1" />
+</configuration>
